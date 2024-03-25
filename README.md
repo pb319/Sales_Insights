@@ -1,10 +1,10 @@
 # Sales_Insights
-My First GitHub repository as well as the first-ever end-to-end Power BI project relating to sales insights of the company named AtliQ Hardware.
+My First GitHub repository as well as the first-ever end-to-end Power BI project relating to sales insights of a fictional company named AtliQ Hardware.
 
 #  *** Sales Insights ***
 ![Atliq](https://github.com/pb319/Sales_Insights/assets/66114329/b0296e2a-9be1-4636-be5d-ae412de02e28)
 
-#### In this project I’ve simulated a business problem resolution to a hardware company in India where I used MySQL and Power BI for datamining and visualization.
+#### In this project I’ve simulated a business problem resolution for a hardware company in India where I used MySQL and Power BI for data mining and visualization.
 
 #### **AtliQ Hardware**
 - Is a company which supplies computer hardware and peripherals to many clients across India;
@@ -12,7 +12,7 @@ My First GitHub repository as well as the first-ever end-to-end Power BI project
 
 ### Imagine the scenario:
 
-The Director **Bhavin Patel** is facing the issue to track the sales and other Major KPIs in this dynamically growing market.
+The Director **Bhavin Patel** is facing the issue of tracking the sales and other Major KPIs in this dynamically growing market.
 
 
 ## Dashboard Overview:
@@ -43,15 +43,15 @@ SELECT * FROM customers LIMIT 50;
 DESC customers;
 SELECT count(DISTINCT customer_code), count(DISTINCT custmer_name), count(DISTINCT customer_type) FROM sales.customers;
 SELECT DISTINCT customer_type FROM customers;
-# There are 38 different customers divided into two types: Brick & MORtar, E-commerce
+# There are 38 different customers divided into two types: Brick & Mortar, E-commerce
 
---  Exploring date table
+--  Exploring data table
 SELECT * FROM date LIMIT 100;
 DESC date;
 SELECT count(DISTINCT date), count(DISTINCT cy_date), count(DISTINCT year), count(DISTINCT month_name), count(DISTINCT date_yy_mmm)
 FROM date;
 SELECT DISTINCT year FROM date;
-# This database shows the sales fOR 4 years: 2017, 2018, 2019, 2020
+# This database shows the sales for 4 years: 2017, 2018, 2019, 2020
 
 --  Exploring market table
 SELECT * FROM sales.markets LIMIT 50;
@@ -63,23 +63,23 @@ GROUP BY markets_code;
 SELECT DISTINCT markets_code FROM markets;
 SELECT DISTINCT count(markets_name) FROM markets;
 SELECT DISTINCT zone FROM markets;
-# There are 17 different markets/location (called by the city name) 15 cities/ markets in india and their codes are a sequence of 001 to 015,
-# and New YORk (Market Code 097) and Paris (Market Code 999). 
-# There are 4 zones: NORth, South, Center (applies fOR the indian markets) and Blank fOR New YORk and Paris
+# There are 17 different markets/locations (called by the city name) 15 cities/ markets in India and their codes are a sequence of 001 to 015,
+# and New York (Market Code 097) and Paris (Market Code 999). 
+# There are 4 zones: North, South, Center (applies fOR the Indian markets) and Blank fOR New York and Paris
 
 --  Exploring product table
 SELECT * FROM products LIMIT 100;
 DESC products;
 SELECT count(DISTINCT product_code), count(DISTINCT product_type) FROM sales.products;
 SELECT DISTINCT product_type FROM products;
-#There are 279 different products falls into two type: Own Brand, Distribution
+#There are 279 different products fall into two types: Own Brand, Distribution
 
 --  Exploring transactions table
 SELECT * FROM transactions LIMIT 100;
 DESC transactions;
 SELECT DISTINCT currency FROM transactions;
-# Transaction tables shows sales amount in two different currencies. This should be fixed and shows sales amount only in one currency.
-# All sales amount will be transfered to USD currency.
+# Transaction tables show sales amounts in two different currencies. This should be fixed and show the sales amount only in one currency.
+# All sales amount will be transferred to USD currency.
 
 # Let's Dig Deeper into International Markets
 SELECT * FROM sales.transactions 
@@ -96,7 +96,7 @@ USE Sales;
 -- Primary Cleaning
 SELECT * FROM customers;
 
--- Deleting "New York", "Paris" row
+-- Deleting "New York", and "Paris" row
 set sql_safe_updates = 0;
 DELETE FROM markets
 WHERE markets.markets_name in ('New York', 'Paris');
