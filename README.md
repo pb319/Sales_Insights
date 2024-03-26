@@ -7,6 +7,7 @@ My First GitHub repository as well as the first-ever end-to-end Power BI project
 #### In this project I’ve simulated a business problem resolution for a hardware company in India where I used MySQL and Power BI for data mining and visualization.
 
 #### **AtliQ Hardware**
+
 - Is a company which supplies computer hardware and peripherals to many clients across India;
 - The company has a head office in Delhi and regional offices throughout India.
 
@@ -14,10 +15,8 @@ My First GitHub repository as well as the first-ever end-to-end Power BI project
 
 The Director **Bhavin Patel** is facing the issue of tracking the sales and other Major KPIs in this dynamically growing market.
 
-
 ## Dashboard Overview:
 
-***
 ![01_Revenue](https://github.com/pb319/Sales_Insights/assets/66114329/1fece1fc-cb4d-4bf0-8551-a5436b5f3d62)
 
 
@@ -27,7 +26,7 @@ The Director **Bhavin Patel** is facing the issue of tracking the sales and othe
 
 
 ![03_Performance](https://github.com/pb319/Sales_Insights/assets/66114329/b31e9239-8892-46c5-9d99-24ea58c16ebe)
-***
+
 
 **DATA EXPLORATION**
 
