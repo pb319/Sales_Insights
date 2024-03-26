@@ -113,3 +113,6 @@ on sales.transactions.market_code = sales.markets.markets_code
 
 
 ```
+You may access the SQL file from the following link: [Click Here](https://github.com/pb319/Sales_Insights/blob/main/Data_Exploration.sql)
+
+
