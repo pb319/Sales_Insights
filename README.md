@@ -21,6 +21,8 @@ The Director **Bhavin Patel** is facing the issue of tracking the sales and othe
 
 
 
+
+
 ![02_Profit Margin](https://github.com/pb319/Sales_Insights/assets/66114329/27cf7bd4-3ef1-41bd-956c-4a867b3be8b8)
 
 
@@ -114,5 +116,12 @@ on sales.transactions.market_code = sales.markets.markets_code
 
 ```
 You may access the SQL file from the following link: [Click Here](https://github.com/pb319/Sales_Insights/blob/main/Data_Exploration.sql)
+
+## Data Validation using MySQL and Power BI:
+
+![Valid1](https://github.com/pb319/Sales_Insights/assets/66114329/3b5ae28a-5282-422f-a4e5-1be3932644e5)
+
+You can access the SQL file using the following Link: [Click Here](https://github.com/pb319/Sales_Insights/blob/main/Data_Validation.sql)
+
 
 
