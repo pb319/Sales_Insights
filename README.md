@@ -8,7 +8,7 @@ My First GitHub repository as well as the first-ever end-to-end Power BI project
 
 #### **AtliQ Hardware**
 - Is a company which supplies computer hardware and peripherals to many clients across India;
-- The company has a head office in Dehli and regional offices throughout India.
+- The company has a head office in Delhi and regional offices throughout India.
 
 ### Imagine the scenario:
 
