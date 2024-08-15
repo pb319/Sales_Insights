@@ -1,5 +1,5 @@
 # Sales_Insights
-My First GitHub repository as well as the first-ever end-to-end Power BI project relating to sales insights of a fictional company named AtliQ Hardware.
+My first GitHub repository as well as the first-ever end-to-end data analytics project relating to sales insights of a fictional company named AtliQ Hardware. 
 
 #  *** Sales Insights ***
 ![Atliq](https://github.com/pb319/Sales_Insights/assets/66114329/b0296e2a-9be1-4636-be5d-ae412de02e28)
